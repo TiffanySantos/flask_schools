@@ -10,6 +10,10 @@ def hello_world():
 def shoelaces():
   return "This works now!"
 
+@app.route("/about")
+def about():
+  return "This is the about page"
+
   if __name__ == '__main__':
     app.run(debug=True)
 
