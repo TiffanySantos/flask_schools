@@ -1,0 +1,1 @@
+Follows the http://jonathansoma.com/tutorials/flask-sqlalchemy-mapbox/getting-started-with-flask.html#babys-first-web-app tutorial
