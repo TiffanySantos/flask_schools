@@ -1,7 +1,13 @@
-from flask import flask
+from flask import Flask
 
-app = flask(__name__)
+app = Flask(__name__)
 
+@app.route("/")
+def hello_world():
+  return "Hello, world!"
 
-if __name__ == '__main__':
-  app.run(debug=True)
+  if __name__ == '__main__':
+    app.run(debug=True)
+
+# to run the app in terminal type:
+# $ python3 -m flask run
